@@ -1,0 +1,143 @@
+@media only screen and (max-width: 1200px){
+    .mobile-nav-icon {
+        display: inline-block;
+        color: white}
+
+    .main-nav{
+        display: none;
+        float: left;
+    }
+    .main-nav li{
+        display: block;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        border: 0;
+    }
+    .nav-right{
+        margin-left: -4%;
+    }
+    .header-all{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-left{
+        margin-bottom: -2%;
+    }
+    .nav-left li{
+        padding-bottom: 2%;
+    }
+    .nav-right li{
+        padding-bottom: 2%;
+    }
+
+}
+@media only screen and (max-width: 1023px){
+    .bottom h2{
+        font-size: 150%;
+    }
+    .box{
+        padding-bottom: 8%;
+    }
+    .bottom p{
+        font-size: 80%;
+    }
+    .load-button{
+        margin-left: -10%;
+        margin-right: 5%;
+    }
+    footer
+    {
+        margin-top: 100%;
+        padding-top: 30%;
+    }
+    .col{
+        width: 50%;
+        margin: 0 0 3% 0;
+        padding-bottom: 10%;
+    }
+    .centre-footer .btn-full{
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+    .left-footer{
+        margin-top: -5%;
+    }
+    .right-footer{
+         margin-top: -35%;
+     }
+    .centre-footer{
+        margin-top: -30%;
+    }
+    .left-footer li a{
+        font-size:25px;
+    }
+    .right-footer li a{
+        font-size: 25px;
+    }
+    .centre-footer.marvel{
+        margin-bottom: 2%;
+    }
+    .marvel{
+        padding-top: 30%;
+    margin-left: 40%;
+        margin-right: 40%;
+    }
+
+}
+@media only screen and (max-width: 576px)
+{
+    .col{
+        width: 100%;
+        margin: 0 0 3% 0;
+    }
+    footer{
+        margin-top: 380%;
+    }
+    .bottom{
+        margin-left: 0;
+        margin-right: -6%;
+    }
+    .movies{
+        margin-left: 12%;
+    }
+    .box{
+        padding-bottom: 30px;
+    }
+    .load-button .btn-full:link,
+    .load-button .btn-full:visited{
+        font-size: 60%;
+
+    }
+    .marvel{
+        margin-left: 30%;
+        margin-right: 30%;
+        padding-top: 30%;
+    }
+    .right-footer{
+        margin-top: -35%;
+    }
+    .left-footer{
+        margin-top: 12%;
+    }
+    .right-footer li a{
+        font-size: 110%;
+    }
+    .left-footer li a{
+        font-size: 110%;
+    }
+    .bottom h2{
+        font-size: 120%;
+    }
+    .bottom p{
+        font-size: 60%;
+    }
+    .load-button{
+        margin-left: 1%;
+        margin-bottom: 1%;
+    }
+    .marvel{
+        margin-bottom: 0;
+    }
+}
